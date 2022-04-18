@@ -4,7 +4,10 @@ import ProductList from '../containers/ProductList';
 
 const Home = () =>{
     return(
-        <ProductList />
+        <div>
+            <Header />
+            <ProductList />
+        </div>
     );
 }
 
